@@ -1,0 +1,114 @@
+html {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+body {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0;
+
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+}
+
+/* header */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 1rem 1.5rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav div img {
+  height: 52px;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+nav span {
+  font-size: 1.6rem;
+  font-style: bold;
+}
+
+nav li {
+  display: inline;
+  padding: 0 0.9rem;
+}
+
+nav .menu {
+  font-size: 1.2rem;
+}
+
+.light {
+  color: lightgray;
+}
+
+/* banner */
+
+header .banner {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.banner .image-container {
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  padding: 1.6rem 1rem;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner .banner-text {
+  padding-left: 1.3rem;
+  padding-right: 2.6rem;
+  width: 40%;
+}
+
+.banner h1, .banner h2 {
+  padding-bottom: 1rem;
+
+  border: 1px solid green;
+}
+
+.banner h2 {
+  margin-bottom: 1rem;
+}
+
+.banner span {
+  background-color: gray;
+  text-align: center;
+  padding: 1rem 5.5rem;
+  font-size: 1.3rem;
+  color: white;
+
+  border: 1px solid red;
+}
