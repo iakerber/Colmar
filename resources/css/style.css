@@ -112,3 +112,53 @@ header .banner {
 
   border: 1px solid red;
 }
+
+/* first practicing content */
+
+/*large feature */
+
+.first-practicing {
+  display: flex;
+}
+
+.feature-big {
+  border: 1px solid red;
+}
+
+.first-practicing .image-container {
+  width: 72%;
+  height: auto;
+  overflow: hidden;
+  padding: 1.6rem 1rem;
+}
+
+.first-practicing img {
+  max-width: 100%;
+}
+
+.feature-big-text {
+  padding: 1rem 0.5rem 1rem 1rem;
+  width: 72%;
+
+  border: 1px solid black;
+}
+
+.feature-big-text p {
+  padding-top: 1.3rem;
+  padding-bottom: 2rem;
+  font-size: 0.86rem;
+}
+
+/* featurettes */
+
+.featurette {
+  display: flex;
+
+  border: 1px solid black;
+}
+
+/*.image-container-small {
+  width: 35%;
+  height: auto;
+  overflow: hidden;
+}*/
