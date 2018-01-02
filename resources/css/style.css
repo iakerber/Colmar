@@ -123,13 +123,21 @@ header .banner {
 
 .feature-big {
   border: 1px solid red;
+  width: 60%;
+}
+
+.features-small {
+  width: 40%;
+  margin-top: 0.8rem;
+
+  border: 1px solid blue;
 }
 
 .first-practicing .image-container {
-  width: 72%;
+  width: 90%;
   height: auto;
   overflow: hidden;
-  padding: 1.6rem 1rem;
+  padding: 1.6rem 1rem 0 1rem;
 }
 
 .first-practicing img {
@@ -138,9 +146,13 @@ header .banner {
 
 .feature-big-text {
   padding: 1rem 0.5rem 1rem 1rem;
-  width: 72%;
+  width: 90%;
 
   border: 1px solid black;
+}
+
+.feature-big-text h1 {
+  font-size: 1.6rem;
 }
 
 .feature-big-text p {
@@ -157,8 +169,110 @@ header .banner {
   border: 1px solid black;
 }
 
-/*.image-container-small {
+.featurette:nth-child(3n+0) {
+  background-color: lightgray;
+}
+
+.image-container-small {
   width: 35%;
   height: auto;
   overflow: hidden;
-}*/
+  padding: 1rem 0.7rem;
+}
+
+.features-small img {
+  max-width: 100%;
+}
+
+.features-small-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem 1rem 0.8rem;
+}
+
+.features-small h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.features-small span {
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+}
+
+.read {
+  font-size: 0.8rem;
+  color: blue;
+}
+
+/* second learning content */
+
+/* heading */
+
+.heading h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1.8rem;
+
+  border: 1px solid red;
+}
+
+/* courses */
+
+.second-learning {
+  background-color: lightgray;
+}
+
+.courses {
+  width: 100%;
+  margin: 1rem 4rem 1rem 4rem;
+
+  border: 1px solid blue;
+}
+
+.program {
+  width: 250px;
+  flex-wrap: wrap;
+  display: inline-flex;
+  padding: 0 0 1rem 0;
+  justify-content: center;
+  margin: 0 1rem;
+
+  border: 1px solid black;
+}
+
+.image-container-program {
+  width: 250px;
+  height: auto;
+  overflow: hidden;
+  padding-top: 0;
+  background-color: white;
+}
+
+.courses img {
+  max-width: 100%;
+  padding-top: 0;
+}
+
+.program-text {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  background-color: white;
+}
+
+.program-text h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.8rem 0 0.4rem 0;
+}
+
+.program-text span, p {
+  font-size: 0.8rem;
+  padding-bottom: 0.4rem;
+}
+
+/* third thesis content */
