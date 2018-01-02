@@ -180,7 +180,7 @@ header .banner {
   padding: 1rem 0.7rem;
 }
 
-.features-small img {
+.featurette img {
   max-width: 100%;
 }
 
@@ -188,15 +188,15 @@ header .banner {
   width: 65%;
   display: flex;
   flex-direction: column;
-  padding: 1.5rem 1rem 1rem 0.8rem;
+  padding: 1.8rem 1rem 1rem 0.8rem;
 }
 
-.features-small h2 {
+.featurette h2 {
   font-size: 1.1rem;
   font-weight: bold;
 }
 
-.features-small span {
+.featurette span {
   font-size: 0.8rem;
   padding: 0.3rem 0;
 }
@@ -276,3 +276,69 @@ header .banner {
 }
 
 /* third thesis content */
+
+.video {
+  width: 55%;
+  margin-right: 3rem;
+}
+
+.more-features {
+  width: 40%;
+  height: auto;
+  padding-top: 1rem;
+}
+
+.exhibit {
+  display: flex;
+}
+
+.video-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 1rem 1.4rem;
+}
+
+.exhibit video {
+  max-width: 100%;
+}
+
+.video-text {
+  padding-left: 1.4rem;
+}
+
+.video-text p {
+  padding-top: 0.4rem;
+}
+
+#gray {
+  background-color: lightgray;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 1rem 0 1rem 1.3rem;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer span, li {
+  font-size: 0.6rem;
+}
+
+.links ul {
+  padding-right: 0;
+}
+
+.copy {
+  border: 1px solid blue;
+  flex-grow: 1;
+
+}
