@@ -1,5 +1,5 @@
 html {
-  font-family: "Arial", sans-serif;
+  font-family: 'Arimo', 'Arial', sans-serif;
   font-size: 18px;
   color: black;
 }
@@ -11,7 +11,7 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Arial", sans-serif;
+  font-family: 'Fredoka One', 'Arial', sans-serif;
 }
 
 h2 {
@@ -21,8 +21,6 @@ h2 {
 .container {
   max-width: 1024px;
   margin: 0;
-
-  border: 1px solid black;
 }
 
 .flex {
@@ -31,12 +29,17 @@ h2 {
 
 /* header */
 
+.desktop span {
+  font-family: 'Lobster', cursive;
+}
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 4rem;
-  padding: 1rem 1.5rem;
+  background-color: burlywood;
+  height: 3rem;
+  padding: 1rem 0;
 }
 
 nav div {
@@ -62,20 +65,22 @@ nav li {
 
 nav .menu {
   font-size: 1.2rem;
+  padding-right: 0.5rem;
 }
 
 .light {
-  color: lightgray;
+  color: bisque;
 }
 
 .menu-truncated {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 840px) {
   nav li {
     flex-direction: column;
     display: block;
+    font-size: 0.9rem;
   }
 }
 
@@ -92,7 +97,7 @@ nav .menu {
 /* banner */
 
 header .banner {
-  background-color: lightgray;
+  background-color: bisque;
   display: flex;
   align-items: center;
 }
@@ -116,8 +121,6 @@ header .banner {
 
 .banner h1, .banner h2 {
   padding-bottom: 1rem;
-
-  border: 1px solid green;
 }
 
 .banner h2 {
@@ -125,13 +128,11 @@ header .banner {
 }
 
 .banner-text h2.start {
-  background-color: gray;
+  background-color: lightslategray;
   text-align: center;
   padding-top: 1rem;
   font-size: 1.3rem;
   color: white;
-
-  border: 1px solid red;
 }
 
 @media only screen and (max-width: 560px) {
@@ -171,15 +172,12 @@ header .banner {
 }
 
 .feature-big {
-  border: 1px solid red;
   width: 60%;
 }
 
 .features-small {
   width: 40%;
   margin-top: 0.8rem;
-
-  border: 1px solid blue;
 }
 
 .first-practicing .image-container {
@@ -196,8 +194,6 @@ header .banner {
 .feature-big-text {
   padding: 1rem 0.5rem 1rem 1rem;
   width: 90%;
-
-  border: 1px solid black;
 }
 
 .feature-big-text h1 {
@@ -220,12 +216,10 @@ header .banner {
 
 .featurette {
   display: flex;
-
-  border: 1px solid black;
 }
 
 .featurette:nth-child(3n+0) {
-  background-color: lightgray;
+  background-color: burlywood;
 }
 
 .image-container-small {
@@ -301,21 +295,21 @@ header .banner {
   font-size: 1.6rem;
   text-align: center;
   padding: 1.8rem;
-
-  border: 1px solid red;
 }
 
 /* courses */
 
 .second-learning {
-  background-color: lightgray;
+  background-color: burlywood;
 }
 
 .courses {
+  padding-left: 3rem;
+}
+
+.courses .container {
   width: 100%;
   margin: 1rem 4rem 1rem 4rem;
-
-  border: 1px solid blue;
 }
 
 .program {
@@ -325,8 +319,6 @@ header .banner {
   padding: 0 0 1rem 0;
   justify-content: center;
   margin: 0 1rem;
-
-  border: 1px solid black;
 }
 
 .image-container-program {
@@ -363,7 +355,7 @@ header .banner {
 }
 
 @media only screen and (max-width: 560px) {
-  .image-container-program, .program-text span, p {
+  .image-container-program, .program-text span, .program-text p {
     display: none;
   }
   .second-learning {
@@ -371,24 +363,21 @@ header .banner {
   }
   .courses {
     margin: 0;
+    background-color: white;
   }
   .program-text {
     width: 100%;
     height: 30px;
-
-    border: 1px solid black;
-
+    padding-bottom: 1rem;
   }
   .program-text h2 {
     width: 250px;
-    background-color: lightgray;
+    background-color: burlywood;
     text-align: left;
     padding-right: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-left: 1rem;
     margin-bottom: 1rem;
-
-    border: 1px solid green;
   }
 }
 
@@ -429,7 +418,7 @@ header .banner {
 }
 
 #gray {
-  background-color: lightgray;
+  background-color: slategray;
 }
 
 @media only screen and (max-width: 560px) {
@@ -448,25 +437,23 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 3rem;
-  padding: 1rem 0 1rem 1.3rem;
+  padding: 1rem 0 1rem 2.3rem;
 }
 
 footer ul li {
   display: inline;
 }
 
-footer span, li {
+footer span, footer li {
   font-size: 0.6rem;
 }
 
-.links ul {
-  padding-right: 0;
+.links ul li {
+padding-left: 0.5rem;
 }
 
 .copy {
-  border: 1px solid blue;
   flex-grow: 1;
-
 }
 
 @media only screen and (max-width: 560px) {
